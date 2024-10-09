@@ -62,7 +62,7 @@ export const JSONDataTable = () => {
               {format(new Date(data.createdAt), "MMMM d, yyyy")}
             </TableCell>
             <TableCell>
-              <Link href={`/view/${data.id}`}>
+              <Link href={`/${data.id}`}>
                 <ShareIcon className="h-4 w-4" />
               </Link>
             </TableCell>
