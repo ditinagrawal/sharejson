@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Home() {
   return (
     <div className="space-y-2 mt-10">
@@ -6,6 +8,13 @@ export default function Home() {
         Our app makes easy to share your JSON data. Simply authenticate and
         upload your data.
       </p>
+      <div>
+        <img
+          src="/dashboard.png"
+          alt="dashboard"
+          className="border rounded mt-8"
+        />
+      </div>
     </div>
   );
 }
